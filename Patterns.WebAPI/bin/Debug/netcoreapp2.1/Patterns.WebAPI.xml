@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Patterns.WebAPI</name>
+    </assembly>
+    <members>
+        <member name="M:Patterns.WebAPI.Controllers.ProductController.GetAll">
+            <summary>
+            Select all products
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Patterns.WebAPI.Controllers.ProductController.GetById(System.String)">
+            <summary>
+            Select a single product
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Patterns.WebAPI.Controllers.ProductController.Register(Patterns.WebAPI.Models.Product)">
+            <summary>
+            Creates a single product
+            </summary>
+            <param name="product"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Patterns.WebAPI.Controllers.ProductController.Update(System.String,Patterns.WebAPI.Models.Product)">
+            <summary>
+            Updates a single product
+            </summary>
+            <param name="id"></param>
+            <param name="product"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Patterns.WebAPI.Controllers.ProductController.Delete(System.String)">
+            <summary>
+            Removes a single product
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

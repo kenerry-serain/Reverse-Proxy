@@ -1,0 +1,15 @@
+/home/kenerry/workspace/Patterns/Patterns.WebAPI/bin/Debug/netcoreapp2.1/Patterns.WebAPI.deps.json
+/home/kenerry/workspace/Patterns/Patterns.WebAPI/bin/Debug/netcoreapp2.1/Patterns.WebAPI.runtimeconfig.json
+/home/kenerry/workspace/Patterns/Patterns.WebAPI/bin/Debug/netcoreapp2.1/Patterns.WebAPI.runtimeconfig.dev.json
+/home/kenerry/workspace/Patterns/Patterns.WebAPI/bin/Debug/netcoreapp2.1/Patterns.WebAPI.dll
+/home/kenerry/workspace/Patterns/Patterns.WebAPI/bin/Debug/netcoreapp2.1/Patterns.WebAPI.pdb
+/home/kenerry/workspace/Patterns/Patterns.WebAPI/obj/Debug/netcoreapp2.1/Patterns.WebAPI.csprojAssemblyReference.cache
+/home/kenerry/workspace/Patterns/Patterns.WebAPI/obj/Debug/netcoreapp2.1/Patterns.WebAPI.csproj.CoreCompileInputs.cache
+/home/kenerry/workspace/Patterns/Patterns.WebAPI/obj/Debug/netcoreapp2.1/Patterns.WebAPI.RazorAssemblyInfo.cache
+/home/kenerry/workspace/Patterns/Patterns.WebAPI/obj/Debug/netcoreapp2.1/Patterns.WebAPI.RazorAssemblyInfo.cs
+/home/kenerry/workspace/Patterns/Patterns.WebAPI/obj/Debug/netcoreapp2.1/Patterns.WebAPI.AssemblyInfoInputs.cache
+/home/kenerry/workspace/Patterns/Patterns.WebAPI/obj/Debug/netcoreapp2.1/Patterns.WebAPI.AssemblyInfo.cs
+/home/kenerry/workspace/Patterns/Patterns.WebAPI/obj/Debug/netcoreapp2.1/Patterns.WebAPI.RazorTargetAssemblyInfo.cache
+/home/kenerry/workspace/Patterns/Patterns.WebAPI/obj/Debug/netcoreapp2.1/Patterns.WebAPI.dll
+/home/kenerry/workspace/Patterns/Patterns.WebAPI/obj/Debug/netcoreapp2.1/Patterns.WebAPI.pdb
+/home/kenerry/workspace/Patterns/Patterns.WebAPI/bin/Debug/netcoreapp2.1/Patterns.WebAPI.xml
