@@ -1,5 +1,7 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using Microsoft.AspNetCore.Mvc;
 using Patterns.WebAPI.Models;
 
@@ -27,6 +29,18 @@ namespace Patterns.WebAPI.Controllers
         }
         
         /// <summary>
+        /// Complex select
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet]
+        [Route("Exception")]
+        [ProducesResponseType(500)]
+        public IActionResult ComplexSelect()
+        {
+            throw new HttpRequestException();
+        }
+        
+        /// <summary>
         /// Select a single product
         /// </summary>
         /// <param name="id"></param>
@@ -35,11 +49,12 @@ namespace Patterns.WebAPI.Controllers
         [Route("{id}", Name = "GetById")]
         [ProducesResponseType(200)]
         [ProducesResponseType(404)]
-        public IActionResult GetById(string id)
+        [ProducesResponseType(400)]
+        public IActionResult GetById([FromRoute]string id)
         {
             //Avoiding invalid id to call database
             if (string.IsNullOrEmpty(id)) 
-                return BadRequest();
+                return BadRequest();            
             
             var product = ProductCollection.SingleOrDefault(pdt => pdt.Id == id);
             if (product != null)
@@ -68,19 +83,21 @@ namespace Patterns.WebAPI.Controllers
         /// <param name="product"></param>
         /// <returns></returns>
         [HttpPut]
+        [Route("{id}")]
         [ProducesResponseType(202)]
+        [ProducesResponseType(400)]
         [ProducesResponseType(404)]
         public IActionResult Update([FromRoute]string id, [FromBody] Product product)
         {
             //Avoiding invalid id to call database
-            if (string.IsNullOrEmpty(product.Id)) 
+            if (string.IsNullOrEmpty(id)) 
                 return BadRequest();
             
             if (ProductCollection.All(pdt => pdt.Id != id))
                 return NotFound();
 
-            var index = ProductCollection.IndexOf(product);
-            ProductCollection[index] = product;
+            var index = ProductCollection.IndexOf(ProductCollection.SingleOrDefault(pdt => pdt.Id == id));
+            ProductCollection[index] = product.WithId(id);
             return Accepted();
         }
         
@@ -93,6 +110,7 @@ namespace Patterns.WebAPI.Controllers
         [HttpDelete]
         [Route("{id}")]
         [ProducesResponseType(200)]
+        [ProducesResponseType(400)]
         [ProducesResponseType(404)]
         public IActionResult Delete([FromRoute]string id)
         {

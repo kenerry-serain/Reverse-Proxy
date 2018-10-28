@@ -2,29 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="043f15ce-2594-4722-bf48-a11e11787dca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Patterns/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Patterns/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Patterns/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Patterns/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Patterns/riderModule.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Patterns.WebAPI/Controllers/ProductController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Patterns.WebAPI/Models/Product.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Patterns.WebAPI/Patterns.WebAPI.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Patterns.WebAPI/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Patterns.WebAPI/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Patterns.WebAPI/Startup.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Patterns.WebAPI/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Patterns.WebAPI/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Patterns.WebAPI/obj/Debug/netcoreapp2.1/Patterns.WebAPI.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Patterns.WebAPI/obj/Debug/netcoreapp2.1/Patterns.WebAPI.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Patterns.WebAPI/obj/Debug/netcoreapp2.1/Patterns.WebAPI.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Patterns.WebAPI/obj/Debug/netcoreapp2.1/Patterns.WebAPI.csprojAssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Patterns.WebAPI/obj/Patterns.WebAPI.csproj.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Patterns.WebAPI/obj/Patterns.WebAPI.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Patterns.WebAPI/obj/Patterns.WebAPI.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Patterns.WebAPI/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Patterns.WebAPI/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Patterns.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Patterns.WebAPI/Middleware/ErrorHandlerMiddleware.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Patterns.WebAPI/Middleware/ExceptionResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Patterns/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Patterns/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Patterns/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Patterns/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Patterns.WebAPI/Controllers/ProductController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns.WebAPI/Controllers/ProductController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Patterns.WebAPI/Models/Product.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns.WebAPI/Models/Product.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Patterns.WebAPI/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns.WebAPI/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Patterns.WebAPI/bin/Debug/netcoreapp2.1/Patterns.WebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns.WebAPI/bin/Debug/netcoreapp2.1/Patterns.WebAPI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Patterns.WebAPI/bin/Debug/netcoreapp2.1/Patterns.WebAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns.WebAPI/bin/Debug/netcoreapp2.1/Patterns.WebAPI.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Patterns.WebAPI/obj/Debug/netcoreapp2.1/Patterns.WebAPI.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns.WebAPI/obj/Debug/netcoreapp2.1/Patterns.WebAPI.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Patterns.WebAPI/obj/Debug/netcoreapp2.1/Patterns.WebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns.WebAPI/obj/Debug/netcoreapp2.1/Patterns.WebAPI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Patterns.WebAPI/obj/Debug/netcoreapp2.1/Patterns.WebAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns.WebAPI/obj/Debug/netcoreapp2.1/Patterns.WebAPI.pdb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,49 +27,50 @@
         <counts>
           <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="5" />
+          <entry key="cs" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="5" />
+          <entry key="C#" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="1206" />
+          <entry key="cs" value="1792" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="1206" />
+          <entry key="C#" value="1792" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Patterns.WebAPI/Startup.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+            <state relative-caret-position="319">
+              <caret line="32" column="60" selection-start-line="32" selection-start-column="60" selection-end-line="32" selection-end-column="60" />
               <folding>
-                <marker date="1540063243064" expanded="true" signature="6:287" ph="..." />
-                <marker date="1540063243064" expanded="true" signature="314:1618" ph="{...}" />
-                <marker date="1540063243064" expanded="true" signature="341:1616" ph="{...}" />
-                <marker date="1540063243064" expanded="true" signature="400:463" ph="{...}" />
-                <marker date="1540063243064" expanded="true" signature="585:1065" ph="{...}" />
-                <marker date="1540063243064" expanded="true" signature="724:1053" ph="{...}" />
-                <marker date="1540063243064" expanded="true" signature="1146:1610" ph="{...}" />
-                <marker date="1540063243064" expanded="true" signature="1193:1270" ph="{...}" />
-                <marker date="1540063243064" expanded="true" signature="1287:1346" ph="{...}" />
-                <marker date="1540063243064" expanded="true" signature="1423:1532" ph="{...}" />
+                <marker date="1540735202367" expanded="false" signature="6:321" ph="..." />
+                <marker date="1540735202367" expanded="true" signature="348:1770" ph="{...}" />
+                <marker date="1540735202367" expanded="true" signature="375:1768" ph="{...}" />
+                <marker date="1540735202367" expanded="true" signature="434:497" ph="{...}" />
+                <marker date="1540735202367" expanded="true" signature="619:1160" ph="{...}" />
+                <marker date="1540735202367" expanded="true" signature="758:1087" ph="{...}" />
+                <marker date="1540735202367" expanded="true" signature="1241:1762" ph="{...}" />
+                <marker date="1540735202367" expanded="true" signature="1288:1365" ph="{...}" />
+                <marker date="1540735202367" expanded="true" signature="1382:1441" ph="{...}" />
+                <marker date="1540735202367" expanded="true" signature="1518:1627" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -89,18 +79,67 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Patterns.WebAPI/Controllers/ProductController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+            <state relative-caret-position="328">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
               <folding>
-                <marker date="1540063294628" expanded="true" signature="6:114" ph="..." />
-                <marker date="1540063294628" expanded="true" signature="373:473" ph="/// Select all products ... " />
-                <marker date="1540063294628" expanded="true" signature="771:913" ph="/// Select a single product ... " />
-                <marker date="1540063294628" expanded="true" signature="1456:1604" ph="/// Creates a single product ... " />
-                <marker date="1540063294628" expanded="true" signature="1725:1843" ph="{...}" />
-                <marker date="1540063294628" expanded="true" signature="1853:2039" ph="/// Updates a single product ... " />
-                <marker date="1540063294628" expanded="true" signature="2215:2620" ph="{...}" />
-                <marker date="1540063294628" expanded="true" signature="2655:2798" ph="/// Removes a single product ... " />
+                <marker date="1540734094684" expanded="true" signature="6:128" ph="..." />
+                <marker date="1540734094684" expanded="true" signature="167:3873" ph="{...}" />
+                <marker date="1540734094684" expanded="true" signature="275:3871" ph="{...}" />
+                <marker date="1540734094684" expanded="true" signature="387:487" ph="/// Select all products ... " />
+                <marker date="1540734094684" expanded="true" signature="615:767" ph="{...}" />
+                <marker date="1540734094684" expanded="true" signature="785:880" ph="/// Complex select ... " />
+                <marker date="1540734094684" expanded="true" signature="1015:1036" ph="{...}" />
+                <marker date="1540734094684" expanded="true" signature="1054:1196" ph="/// Select a single product ... " />
+                <marker date="1540734094684" expanded="true" signature="1423:1782" ph="{...}" />
+                <marker date="1540734094684" expanded="true" signature="1800:1948" ph="/// Creates a single product ... " />
+                <marker date="1540734094684" expanded="true" signature="2069:2187" ph="{...}" />
+                <marker date="1540734094684" expanded="true" signature="2197:2383" ph="/// Updates a single product ... " />
+                <marker date="1540734094684" expanded="true" signature="2619:3076" ph="{...}" />
+                <marker date="1540734094684" expanded="true" signature="3111:3254" ph="/// Removes a single product ... " />
+                <marker date="1540734094684" expanded="true" signature="3465:3865" ph="{...}" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Patterns.WebAPI/Middleware/ErrorHandlerMiddleware.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+              <folding>
+                <marker date="1540734967060" expanded="true" signature="6:117" ph="..." />
+                <marker date="1540734967060" expanded="true" signature="155:1120" ph="{...}" />
+                <marker date="1540734967060" expanded="true" signature="210:1118" ph="{...}" />
+                <marker date="1540734967060" expanded="true" signature="297:530" ph="{...}" />
+                <marker date="1540734967060" expanded="true" signature="323:388" ph="{...}" />
+                <marker date="1540734967060" expanded="true" signature="428:520" ph="{...}" />
+                <marker date="1540734967060" expanded="true" signature="637:1112" ph="{...}" />
+                <marker date="1540734967060" expanded="true" signature="846:1102" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Patterns.WebAPI/Middleware/ExceptionResponse.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+              <folding>
+                <marker date="1540735025106" expanded="true" signature="51:359" ph="{...}" />
+                <marker date="1540735025106" expanded="true" signature="88:357" ph="{...}" />
+                <marker date="1540735025106" expanded="true" signature="252:351" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2BD385E8-968B-48D6-B65B-62AA7D7035AB/b6/ccb4b33f/String.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="375" column="30" selection-start-line="375" selection-start-column="30" selection-end-line="375" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -108,11 +147,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Patterns.WebAPI/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
+            <state relative-caret-position="266">
               <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
               <folding>
                 <marker date="1540062448905" expanded="false" signature="6:255" ph="..." />
-                <marker date="1540062448905" expanded="true" signature="282:659" ph="{...}" />
                 <marker date="1540062448905" expanded="true" signature="309:657" ph="{...}" />
                 <marker date="1540062448905" expanded="true" signature="362:436" ph="{...}" />
               </folding>
@@ -123,10 +161,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Patterns.WebAPI/Models/Product.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            <state relative-caret-position="228">
+              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
               <folding>
-                <marker date="1540062731881" expanded="true" signature="47:205" ph="{...}" />
+                <marker date="1540732938264" expanded="true" signature="47:313" ph="{...}" />
+                <marker date="1540732938264" expanded="true" signature="74:311" ph="{...}" />
+                <marker date="1540732938264" expanded="true" signature="239:305" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -145,15 +185,20 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Patterns.WebAPI/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Patterns.WebAPI/Middleware/ExceptionResponse.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Patterns.WebAPI/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Patterns.WebAPI/Controllers/ProductController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Patterns.WebAPI/Models/Product.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2BD385E8-968B-48D6-B65B-62AA7D7035AB/b6/ccb4b33f/String.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Patterns.WebAPI/Middleware/ErrorHandlerMiddleware.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Patterns.WebAPI/Program.cs" />
         <option value="$PROJECT_DIR$/Patterns.WebAPI/Models/Product.cs" />
+        <option value="$PROJECT_DIR$/Patterns.WebAPI/Middleware/ErrorHandlerMiddleware.cs" />
+        <option value="$PROJECT_DIR$/Patterns.WebAPI/Middleware/ExceptionResponse.cs" />
         <option value="$PROJECT_DIR$/Patterns.WebAPI/Startup.cs" />
         <option value="$PROJECT_DIR$/Patterns.WebAPI/Controllers/ProductController.cs" />
       </list>
@@ -161,15 +206,35 @@
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="993" />
+    <option name="x" value="67" />
     <option name="y" value="25" />
     <option name="width" value="927" />
     <option name="height" value="1055" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Angular</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -196,13 +261,7 @@
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="Patterns" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Patterns.WebAPI" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Controllers" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Patterns" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Patterns.WebAPI" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Models" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Middleware" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
@@ -215,6 +274,8 @@
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SaloonManager/SaloonManager/SaloonManager.sln" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -264,11 +325,12 @@
       <option name="presentableId" value="Default" />
       <updated>1540058627672</updated>
       <workItem from="1540058629035" duration="6865000" />
+      <workItem from="1540731172656" duration="4088000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6865000" />
+    <option name="totallyTimeSpent" value="10953000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -282,35 +344,36 @@
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24958494" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25235197" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="NuGet" sideWeight="0.4997233" weight="0.32972974" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.5019369" side_tool="true" visible="true" weight="0.32972974" />
-      <window_info anchor="bottom" id="Build" sideWeight="0.4975097" weight="0.32972974" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="REST Client" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4980631" weight="0.32972974" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4997233" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49363586" visible="true" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Errors In Solution" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="NuGet" order="7" sideWeight="0.4997233" weight="0.32972974" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50636417" side_tool="true" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Build" order="14" sideWeight="0.49142224" weight="0.32972974" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -322,72 +385,123 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Patterns.WebAPI/Controllers/ProductController.cs</url>
+          <line>98</line>
+          <properties documentPath="$PROJECT_DIR$/Patterns.WebAPI/Controllers/ProductController.cs" initialLine="85">
+            <startOffsets>
+              <option value="2989" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3035" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Patterns.WebAPI/Controllers/ValuesController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="8" selection-start-line="8" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Patterns.WebAPI/Controllers/ValuesController.cs" />
     <entry file="file://$PROJECT_DIR$/Patterns.WebAPI/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
+        <state relative-caret-position="266">
           <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
           <folding>
             <marker date="1540062448905" expanded="false" signature="6:255" ph="..." />
-            <marker date="1540062448905" expanded="true" signature="282:659" ph="{...}" />
             <marker date="1540062448905" expanded="true" signature="309:657" ph="{...}" />
             <marker date="1540062448905" expanded="true" signature="362:436" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Patterns.WebAPI/Startup.cs">
+    <entry file="file://$PROJECT_DIR$/Patterns.WebAPI/Models/Product.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+        <state relative-caret-position="228">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
           <folding>
-            <marker date="1540063243064" expanded="true" signature="6:287" ph="..." />
-            <marker date="1540063243064" expanded="true" signature="314:1618" ph="{...}" />
-            <marker date="1540063243064" expanded="true" signature="341:1616" ph="{...}" />
-            <marker date="1540063243064" expanded="true" signature="400:463" ph="{...}" />
-            <marker date="1540063243064" expanded="true" signature="585:1065" ph="{...}" />
-            <marker date="1540063243064" expanded="true" signature="724:1053" ph="{...}" />
-            <marker date="1540063243064" expanded="true" signature="1146:1610" ph="{...}" />
-            <marker date="1540063243064" expanded="true" signature="1193:1270" ph="{...}" />
-            <marker date="1540063243064" expanded="true" signature="1287:1346" ph="{...}" />
-            <marker date="1540063243064" expanded="true" signature="1423:1532" ph="{...}" />
+            <marker date="1540732938264" expanded="true" signature="47:313" ph="{...}" />
+            <marker date="1540732938264" expanded="true" signature="74:311" ph="{...}" />
+            <marker date="1540732938264" expanded="true" signature="239:305" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Patterns.WebAPI/Models/Product.cs">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2BD385E8-968B-48D6-B65B-62AA7D7035AB/b6/ccb4b33f/String.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        <state relative-caret-position="214">
+          <caret line="375" column="30" selection-start-line="375" selection-start-column="30" selection-end-line="375" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Patterns.WebAPI/Middleware/ExceptionResponse.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
           <folding>
-            <marker date="1540062731881" expanded="true" signature="47:205" ph="{...}" />
+            <marker date="1540735025106" expanded="true" signature="51:359" ph="{...}" />
+            <marker date="1540735025106" expanded="true" signature="88:357" ph="{...}" />
+            <marker date="1540735025106" expanded="true" signature="252:351" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Patterns.WebAPI/Middleware/ErrorHandlerMiddleware.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <folding>
+            <marker date="1540734967060" expanded="true" signature="6:117" ph="..." />
+            <marker date="1540734967060" expanded="true" signature="155:1120" ph="{...}" />
+            <marker date="1540734967060" expanded="true" signature="210:1118" ph="{...}" />
+            <marker date="1540734967060" expanded="true" signature="297:530" ph="{...}" />
+            <marker date="1540734967060" expanded="true" signature="323:388" ph="{...}" />
+            <marker date="1540734967060" expanded="true" signature="428:520" ph="{...}" />
+            <marker date="1540734967060" expanded="true" signature="637:1112" ph="{...}" />
+            <marker date="1540734967060" expanded="true" signature="846:1102" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Patterns.WebAPI/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="32" column="60" selection-start-line="32" selection-start-column="60" selection-end-line="32" selection-end-column="60" />
+          <folding>
+            <marker date="1540735202367" expanded="false" signature="6:321" ph="..." />
+            <marker date="1540735202367" expanded="true" signature="348:1770" ph="{...}" />
+            <marker date="1540735202367" expanded="true" signature="375:1768" ph="{...}" />
+            <marker date="1540735202367" expanded="true" signature="434:497" ph="{...}" />
+            <marker date="1540735202367" expanded="true" signature="619:1160" ph="{...}" />
+            <marker date="1540735202367" expanded="true" signature="758:1087" ph="{...}" />
+            <marker date="1540735202367" expanded="true" signature="1241:1762" ph="{...}" />
+            <marker date="1540735202367" expanded="true" signature="1288:1365" ph="{...}" />
+            <marker date="1540735202367" expanded="true" signature="1382:1441" ph="{...}" />
+            <marker date="1540735202367" expanded="true" signature="1518:1627" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Patterns.WebAPI/Controllers/ProductController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        <state relative-caret-position="328">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
           <folding>
-            <marker date="1540063294628" expanded="true" signature="6:114" ph="..." />
-            <marker date="1540063294628" expanded="true" signature="373:473" ph="/// Select all products ... " />
-            <marker date="1540063294628" expanded="true" signature="771:913" ph="/// Select a single product ... " />
-            <marker date="1540063294628" expanded="true" signature="1456:1604" ph="/// Creates a single product ... " />
-            <marker date="1540063294628" expanded="true" signature="1725:1843" ph="{...}" />
-            <marker date="1540063294628" expanded="true" signature="1853:2039" ph="/// Updates a single product ... " />
-            <marker date="1540063294628" expanded="true" signature="2215:2620" ph="{...}" />
-            <marker date="1540063294628" expanded="true" signature="2655:2798" ph="/// Removes a single product ... " />
+            <marker date="1540734094684" expanded="true" signature="6:128" ph="..." />
+            <marker date="1540734094684" expanded="true" signature="167:3873" ph="{...}" />
+            <marker date="1540734094684" expanded="true" signature="275:3871" ph="{...}" />
+            <marker date="1540734094684" expanded="true" signature="387:487" ph="/// Select all products ... " />
+            <marker date="1540734094684" expanded="true" signature="615:767" ph="{...}" />
+            <marker date="1540734094684" expanded="true" signature="785:880" ph="/// Complex select ... " />
+            <marker date="1540734094684" expanded="true" signature="1015:1036" ph="{...}" />
+            <marker date="1540734094684" expanded="true" signature="1054:1196" ph="/// Select a single product ... " />
+            <marker date="1540734094684" expanded="true" signature="1423:1782" ph="{...}" />
+            <marker date="1540734094684" expanded="true" signature="1800:1948" ph="/// Creates a single product ... " />
+            <marker date="1540734094684" expanded="true" signature="2069:2187" ph="{...}" />
+            <marker date="1540734094684" expanded="true" signature="2197:2383" ph="/// Updates a single product ... " />
+            <marker date="1540734094684" expanded="true" signature="2619:3076" ph="{...}" />
+            <marker date="1540734094684" expanded="true" signature="3111:3254" ph="/// Removes a single product ... " />
+            <marker date="1540734094684" expanded="true" signature="3465:3865" ph="{...}" />
           </folding>
         </state>
       </provider>

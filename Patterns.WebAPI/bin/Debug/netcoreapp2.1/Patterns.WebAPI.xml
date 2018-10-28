@@ -10,6 +10,12 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="M:Patterns.WebAPI.Controllers.ProductController.ComplexSelect">
+            <summary>
+            Complex select
+            </summary>
+            <returns></returns>
+        </member>
         <member name="M:Patterns.WebAPI.Controllers.ProductController.GetById(System.String)">
             <summary>
             Select a single product

@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Patterns.WebAPI.Middleware;
 using Swashbuckle.AspNetCore.Swagger;
 
 namespace Patterns.WebAPI
@@ -29,6 +30,7 @@ namespace Patterns.WebAPI
                 var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
                 c.IncludeXmlComments(xmlPath);
             });
+            services.AddTransient<ErrorHandlerMiddleware>();
         }
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
@@ -49,6 +51,7 @@ namespace Patterns.WebAPI
             });
 
             app.UseHttpsRedirection();
+            app.UseMiddleware<ErrorHandlerMiddleware>();
             app.UseMvc();
         }
     }

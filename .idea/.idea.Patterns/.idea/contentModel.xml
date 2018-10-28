@@ -9,6 +9,10 @@
         <e p="Controllers" t="Include">
           <e p="ProductController.cs" t="Include" />
         </e>
+        <e p="Middleware" t="Include">
+          <e p="ErrorHandlerMiddleware.cs" t="Include" />
+          <e p="ExceptionResponse.cs" t="Include" />
+        </e>
         <e p="Models" t="Include">
           <e p="Product.cs" t="Include" />
         </e>
