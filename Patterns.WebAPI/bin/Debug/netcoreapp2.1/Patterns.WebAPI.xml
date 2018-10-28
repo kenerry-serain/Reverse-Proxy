@@ -10,9 +10,9 @@
             </summary>
             <returns></returns>
         </member>
-        <member name="M:Patterns.WebAPI.Controllers.ProductController.ComplexSelect">
+        <member name="M:Patterns.WebAPI.Controllers.ProductController.ComplexMethod">
             <summary>
-            Complex select
+            Complex method
             </summary>
             <returns></returns>
         </member>

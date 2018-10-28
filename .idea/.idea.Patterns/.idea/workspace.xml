@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="043f15ce-2594-4722-bf48-a11e11787dca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Patterns.WebAPI/Middleware/ErrorHandlerMiddleware.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Patterns.WebAPI/Middleware/ExceptionResponse.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Patterns/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Patterns/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Patterns/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Patterns/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Patterns.WebAPI/Controllers/ProductController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns.WebAPI/Controllers/ProductController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns.WebAPI/Models/Product.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns.WebAPI/Models/Product.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Patterns.WebAPI/Middleware/ExceptionResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns.WebAPI/Middleware/ExceptionResponse.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Patterns.WebAPI/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns.WebAPI/Startup.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Patterns.WebAPI/bin/Debug/netcoreapp2.1/Patterns.WebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns.WebAPI/bin/Debug/netcoreapp2.1/Patterns.WebAPI.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Patterns.WebAPI/bin/Debug/netcoreapp2.1/Patterns.WebAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns.WebAPI/bin/Debug/netcoreapp2.1/Patterns.WebAPI.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns.WebAPI/obj/Debug/netcoreapp2.1/Patterns.WebAPI.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns.WebAPI/obj/Debug/netcoreapp2.1/Patterns.WebAPI.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Patterns.WebAPI/bin/Debug/netcoreapp2.1/Patterns.WebAPI.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns.WebAPI/bin/Debug/netcoreapp2.1/Patterns.WebAPI.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Patterns.WebAPI/obj/Debug/netcoreapp2.1/Patterns.WebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns.WebAPI/obj/Debug/netcoreapp2.1/Patterns.WebAPI.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Patterns.WebAPI/obj/Debug/netcoreapp2.1/Patterns.WebAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns.WebAPI/obj/Debug/netcoreapp2.1/Patterns.WebAPI.pdb" afterDir="false" />
     </list>
@@ -43,12 +40,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="1792" />
+          <entry key="cs" value="1910" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="1792" />
+          <entry key="C#" value="1910" />
         </counts>
       </usages-collector>
     </session>
@@ -58,19 +55,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Patterns.WebAPI/Startup.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="32" column="60" selection-start-line="32" selection-start-column="60" selection-end-line="32" selection-end-column="60" />
+            <state relative-caret-position="452">
+              <caret line="54" column="28" lean-forward="true" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
               <folding>
-                <marker date="1540735202367" expanded="false" signature="6:321" ph="..." />
-                <marker date="1540735202367" expanded="true" signature="348:1770" ph="{...}" />
-                <marker date="1540735202367" expanded="true" signature="375:1768" ph="{...}" />
-                <marker date="1540735202367" expanded="true" signature="434:497" ph="{...}" />
-                <marker date="1540735202367" expanded="true" signature="619:1160" ph="{...}" />
-                <marker date="1540735202367" expanded="true" signature="758:1087" ph="{...}" />
-                <marker date="1540735202367" expanded="true" signature="1241:1762" ph="{...}" />
-                <marker date="1540735202367" expanded="true" signature="1288:1365" ph="{...}" />
-                <marker date="1540735202367" expanded="true" signature="1382:1441" ph="{...}" />
-                <marker date="1540735202367" expanded="true" signature="1518:1627" ph="{...}" />
+                <marker date="1540747504764" expanded="false" signature="6:321" ph="..." />
+                <marker date="1540747504764" expanded="true" signature="348:1852" ph="{...}" />
+                <marker date="1540747504764" expanded="true" signature="375:1850" ph="{...}" />
+                <marker date="1540747504764" expanded="true" signature="434:497" ph="{...}" />
+                <marker date="1540747504764" expanded="true" signature="619:1204" ph="{...}" />
+                <marker date="1540747504764" expanded="true" signature="758:1087" ph="{...}" />
+                <marker date="1540747504764" expanded="true" signature="1285:1844" ph="{...}" />
+                <marker date="1540747504764" expanded="true" signature="1332:1409" ph="{...}" />
+                <marker date="1540747504764" expanded="true" signature="1426:1485" ph="{...}" />
+                <marker date="1540747504764" expanded="true" signature="1562:1671" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -79,24 +76,24 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Patterns.WebAPI/Controllers/ProductController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="399">
+              <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
               <folding>
-                <marker date="1540734094684" expanded="true" signature="6:128" ph="..." />
-                <marker date="1540734094684" expanded="true" signature="167:3873" ph="{...}" />
-                <marker date="1540734094684" expanded="true" signature="275:3871" ph="{...}" />
-                <marker date="1540734094684" expanded="true" signature="387:487" ph="/// Select all products ... " />
-                <marker date="1540734094684" expanded="true" signature="615:767" ph="{...}" />
-                <marker date="1540734094684" expanded="true" signature="785:880" ph="/// Complex select ... " />
-                <marker date="1540734094684" expanded="true" signature="1015:1036" ph="{...}" />
-                <marker date="1540734094684" expanded="true" signature="1054:1196" ph="/// Select a single product ... " />
-                <marker date="1540734094684" expanded="true" signature="1423:1782" ph="{...}" />
-                <marker date="1540734094684" expanded="true" signature="1800:1948" ph="/// Creates a single product ... " />
-                <marker date="1540734094684" expanded="true" signature="2069:2187" ph="{...}" />
-                <marker date="1540734094684" expanded="true" signature="2197:2383" ph="/// Updates a single product ... " />
-                <marker date="1540734094684" expanded="true" signature="2619:3076" ph="{...}" />
-                <marker date="1540734094684" expanded="true" signature="3111:3254" ph="/// Removes a single product ... " />
-                <marker date="1540734094684" expanded="true" signature="3465:3865" ph="{...}" />
+                <marker date="1540746349071" expanded="true" signature="6:137" ph="..." />
+                <marker date="1540746349071" expanded="true" signature="176:3920" ph="{...}" />
+                <marker date="1540746349071" expanded="true" signature="284:3918" ph="{...}" />
+                <marker date="1540746349071" expanded="true" signature="396:496" ph="/// Select all products ... " />
+                <marker date="1540746349071" expanded="true" signature="624:776" ph="{...}" />
+                <marker date="1540746349071" expanded="true" signature="794:889" ph="/// Complex method ... " />
+                <marker date="1540746349071" expanded="true" signature="1017:1083" ph="{...}" />
+                <marker date="1540746349071" expanded="true" signature="1101:1243" ph="/// Select a single product ... " />
+                <marker date="1540746349071" expanded="true" signature="1470:1829" ph="{...}" />
+                <marker date="1540746349071" expanded="true" signature="1847:1995" ph="/// Creates a single product ... " />
+                <marker date="1540746349071" expanded="true" signature="2116:2234" ph="{...}" />
+                <marker date="1540746349071" expanded="true" signature="2244:2430" ph="/// Updates a single product ... " />
+                <marker date="1540746349071" expanded="true" signature="2666:3123" ph="{...}" />
+                <marker date="1540746349071" expanded="true" signature="3158:3301" ph="/// Removes a single product ... " />
+                <marker date="1540746349071" expanded="true" signature="3512:3912" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -105,8 +102,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Patterns.WebAPI/Middleware/ErrorHandlerMiddleware.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+            <state relative-caret-position="365">
+              <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
               <folding>
                 <marker date="1540734967060" expanded="true" signature="6:117" ph="..." />
                 <marker date="1540734967060" expanded="true" signature="155:1120" ph="{...}" />
@@ -124,12 +121,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Patterns.WebAPI/Middleware/ExceptionResponse.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+            <state relative-caret-position="323">
+              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
               <folding>
-                <marker date="1540735025106" expanded="true" signature="51:359" ph="{...}" />
-                <marker date="1540735025106" expanded="true" signature="88:357" ph="{...}" />
-                <marker date="1540735025106" expanded="true" signature="252:351" ph="{...}" />
+                <marker date="1540747251846" expanded="true" signature="51:461" ph="{...}" />
+                <marker date="1540747251846" expanded="true" signature="88:459" ph="{...}" />
+                <marker date="1540747251846" expanded="true" signature="307:453" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -197,10 +194,10 @@
       <list>
         <option value="$PROJECT_DIR$/Patterns.WebAPI/Program.cs" />
         <option value="$PROJECT_DIR$/Patterns.WebAPI/Models/Product.cs" />
-        <option value="$PROJECT_DIR$/Patterns.WebAPI/Middleware/ErrorHandlerMiddleware.cs" />
-        <option value="$PROJECT_DIR$/Patterns.WebAPI/Middleware/ExceptionResponse.cs" />
-        <option value="$PROJECT_DIR$/Patterns.WebAPI/Startup.cs" />
         <option value="$PROJECT_DIR$/Patterns.WebAPI/Controllers/ProductController.cs" />
+        <option value="$PROJECT_DIR$/Patterns.WebAPI/Middleware/ExceptionResponse.cs" />
+        <option value="$PROJECT_DIR$/Patterns.WebAPI/Middleware/ErrorHandlerMiddleware.cs" />
+        <option value="$PROJECT_DIR$/Patterns.WebAPI/Startup.cs" />
       </list>
     </option>
   </component>
@@ -256,6 +253,12 @@
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="Patterns" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Patterns.WebAPI" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Patterns" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Patterns.WebAPI" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Controllers" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
@@ -325,12 +328,12 @@
       <option name="presentableId" value="Default" />
       <updated>1540058627672</updated>
       <workItem from="1540058629035" duration="6865000" />
-      <workItem from="1540731172656" duration="4088000" />
+      <workItem from="1540731172656" duration="7313000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10953000" />
+    <option name="totallyTimeSpent" value="14178000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -343,15 +346,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25235197" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="REST Client" />
+      <window_info anchor="bottom" id="REST Client" sideWeight="0.4997233" weight="0.32972974" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4980631" weight="0.32972974" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49363586" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4975097" weight="0.32972974" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.57277256" visible="true" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -361,8 +365,8 @@
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unit Tests" order="11" />
       <window_info anchor="bottom" id="Terminal" order="12" />
-      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50636417" side_tool="true" visible="true" weight="0.4" />
-      <window_info anchor="bottom" id="Build" order="14" sideWeight="0.49142224" weight="0.32972974" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.42722744" side_tool="true" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Build" order="14" sideWeight="0.48810184" weight="0.32972974" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -390,13 +394,26 @@
           <line>98</line>
           <properties documentPath="$PROJECT_DIR$/Patterns.WebAPI/Controllers/ProductController.cs" initialLine="85">
             <startOffsets>
-              <option value="2989" />
+              <option value="3036" />
             </startOffsets>
             <endOffsets>
-              <option value="3035" />
+              <option value="3082" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Patterns.WebAPI/Controllers/ProductController.cs</url>
+          <line>37</line>
+          <properties documentPath="$PROJECT_DIR$/Patterns.WebAPI/Controllers/ProductController.cs" initialLine="37">
+            <startOffsets>
+              <option value="1026" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1027" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -436,20 +453,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Patterns.WebAPI/Middleware/ExceptionResponse.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+        <state relative-caret-position="323">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
           <folding>
-            <marker date="1540735025106" expanded="true" signature="51:359" ph="{...}" />
-            <marker date="1540735025106" expanded="true" signature="88:357" ph="{...}" />
-            <marker date="1540735025106" expanded="true" signature="252:351" ph="{...}" />
+            <marker date="1540747251846" expanded="true" signature="51:461" ph="{...}" />
+            <marker date="1540747251846" expanded="true" signature="88:459" ph="{...}" />
+            <marker date="1540747251846" expanded="true" signature="307:453" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Patterns.WebAPI/Middleware/ErrorHandlerMiddleware.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        <state relative-caret-position="365">
+          <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
           <folding>
             <marker date="1540734967060" expanded="true" signature="6:117" ph="..." />
             <marker date="1540734967060" expanded="true" signature="155:1120" ph="{...}" />
@@ -465,43 +482,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Patterns.WebAPI/Startup.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="32" column="60" selection-start-line="32" selection-start-column="60" selection-end-line="32" selection-end-column="60" />
+        <state relative-caret-position="452">
+          <caret line="54" column="28" lean-forward="true" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
           <folding>
-            <marker date="1540735202367" expanded="false" signature="6:321" ph="..." />
-            <marker date="1540735202367" expanded="true" signature="348:1770" ph="{...}" />
-            <marker date="1540735202367" expanded="true" signature="375:1768" ph="{...}" />
-            <marker date="1540735202367" expanded="true" signature="434:497" ph="{...}" />
-            <marker date="1540735202367" expanded="true" signature="619:1160" ph="{...}" />
-            <marker date="1540735202367" expanded="true" signature="758:1087" ph="{...}" />
-            <marker date="1540735202367" expanded="true" signature="1241:1762" ph="{...}" />
-            <marker date="1540735202367" expanded="true" signature="1288:1365" ph="{...}" />
-            <marker date="1540735202367" expanded="true" signature="1382:1441" ph="{...}" />
-            <marker date="1540735202367" expanded="true" signature="1518:1627" ph="{...}" />
+            <marker date="1540747504764" expanded="false" signature="6:321" ph="..." />
+            <marker date="1540747504764" expanded="true" signature="348:1852" ph="{...}" />
+            <marker date="1540747504764" expanded="true" signature="375:1850" ph="{...}" />
+            <marker date="1540747504764" expanded="true" signature="434:497" ph="{...}" />
+            <marker date="1540747504764" expanded="true" signature="619:1204" ph="{...}" />
+            <marker date="1540747504764" expanded="true" signature="758:1087" ph="{...}" />
+            <marker date="1540747504764" expanded="true" signature="1285:1844" ph="{...}" />
+            <marker date="1540747504764" expanded="true" signature="1332:1409" ph="{...}" />
+            <marker date="1540747504764" expanded="true" signature="1426:1485" ph="{...}" />
+            <marker date="1540747504764" expanded="true" signature="1562:1671" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Patterns.WebAPI/Controllers/ProductController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="399">
+          <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
           <folding>
-            <marker date="1540734094684" expanded="true" signature="6:128" ph="..." />
-            <marker date="1540734094684" expanded="true" signature="167:3873" ph="{...}" />
-            <marker date="1540734094684" expanded="true" signature="275:3871" ph="{...}" />
-            <marker date="1540734094684" expanded="true" signature="387:487" ph="/// Select all products ... " />
-            <marker date="1540734094684" expanded="true" signature="615:767" ph="{...}" />
-            <marker date="1540734094684" expanded="true" signature="785:880" ph="/// Complex select ... " />
-            <marker date="1540734094684" expanded="true" signature="1015:1036" ph="{...}" />
-            <marker date="1540734094684" expanded="true" signature="1054:1196" ph="/// Select a single product ... " />
-            <marker date="1540734094684" expanded="true" signature="1423:1782" ph="{...}" />
-            <marker date="1540734094684" expanded="true" signature="1800:1948" ph="/// Creates a single product ... " />
-            <marker date="1540734094684" expanded="true" signature="2069:2187" ph="{...}" />
-            <marker date="1540734094684" expanded="true" signature="2197:2383" ph="/// Updates a single product ... " />
-            <marker date="1540734094684" expanded="true" signature="2619:3076" ph="{...}" />
-            <marker date="1540734094684" expanded="true" signature="3111:3254" ph="/// Removes a single product ... " />
-            <marker date="1540734094684" expanded="true" signature="3465:3865" ph="{...}" />
+            <marker date="1540746349071" expanded="true" signature="6:137" ph="..." />
+            <marker date="1540746349071" expanded="true" signature="176:3920" ph="{...}" />
+            <marker date="1540746349071" expanded="true" signature="284:3918" ph="{...}" />
+            <marker date="1540746349071" expanded="true" signature="396:496" ph="/// Select all products ... " />
+            <marker date="1540746349071" expanded="true" signature="624:776" ph="{...}" />
+            <marker date="1540746349071" expanded="true" signature="794:889" ph="/// Complex method ... " />
+            <marker date="1540746349071" expanded="true" signature="1017:1083" ph="{...}" />
+            <marker date="1540746349071" expanded="true" signature="1101:1243" ph="/// Select a single product ... " />
+            <marker date="1540746349071" expanded="true" signature="1470:1829" ph="{...}" />
+            <marker date="1540746349071" expanded="true" signature="1847:1995" ph="/// Creates a single product ... " />
+            <marker date="1540746349071" expanded="true" signature="2116:2234" ph="{...}" />
+            <marker date="1540746349071" expanded="true" signature="2244:2430" ph="/// Updates a single product ... " />
+            <marker date="1540746349071" expanded="true" signature="2666:3123" ph="{...}" />
+            <marker date="1540746349071" expanded="true" signature="3158:3301" ph="/// Removes a single product ... " />
+            <marker date="1540746349071" expanded="true" signature="3512:3912" ph="{...}" />
           </folding>
         </state>
       </provider>

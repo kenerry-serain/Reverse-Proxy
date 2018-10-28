@@ -30,6 +30,8 @@ namespace Patterns.WebAPI
                 var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
                 c.IncludeXmlComments(xmlPath);
             });
+            
+            /* Registration */
             services.AddTransient<ErrorHandlerMiddleware>();
         }
 
@@ -51,7 +53,9 @@ namespace Patterns.WebAPI
             });
 
             app.UseHttpsRedirection();
-            app.UseMiddleware<ErrorHandlerMiddleware>();
+            
+            /* Usage */
+            app.UseMiddleware<ErrorHandlerMiddleware>(); 
             app.UseMvc();
         }
     }

@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
@@ -29,13 +28,13 @@ namespace Patterns.WebAPI.Controllers
         }
         
         /// <summary>
-        /// Complex select
+        /// Complex method
         /// </summary>
         /// <returns></returns>
         [HttpGet]
         [Route("Exception")]
         [ProducesResponseType(500)]
-        public IActionResult ComplexSelect()
+        public IActionResult ComplexMethod()
         {
             throw new HttpRequestException();
         }
