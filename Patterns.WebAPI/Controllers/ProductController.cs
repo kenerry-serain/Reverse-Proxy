@@ -97,7 +97,7 @@ namespace Patterns.WebAPI.Controllers
 
             var index = ProductCollection.IndexOf(ProductCollection.SingleOrDefault(pdt => pdt.Id == id));
             ProductCollection[index] = product.WithId(id);
-            return Accepted();
+            return Accepted(product);
         }
         
                 
