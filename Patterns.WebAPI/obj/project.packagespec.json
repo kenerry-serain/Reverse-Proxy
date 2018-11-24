@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/home/kenerry/workspace/Patterns/Patterns.WebAPI/Patterns.WebAPI.csproj",
+    "projectUniqueName": "/home/kenerry/workspace/Nginx/Patterns.WebAPI/Patterns.WebAPI.csproj",
     "projectName": "Patterns.WebAPI",
-    "projectPath": "/home/kenerry/workspace/Patterns/Patterns.WebAPI/Patterns.WebAPI.csproj",
-    "outputPath": "/home/kenerry/workspace/Patterns/Patterns.WebAPI/obj/",
+    "projectPath": "/home/kenerry/workspace/Nginx/Patterns.WebAPI/Patterns.WebAPI.csproj",
+    "outputPath": "/home/kenerry/workspace/Nginx/Patterns.WebAPI/obj/",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "/usr/share/dotnet/sdk/NuGetFallbackFolder"

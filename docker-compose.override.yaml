@@ -1,0 +1,12 @@
+version: '3.3'
+
+services:
+        patterns-webapi:
+                environment:
+                        - ASPNETCORE_ENVIRONMENT=Development
+                ports: 
+                        - 8080:80
+
+        reverse-proxy:
+                ports:
+                        - 80:80

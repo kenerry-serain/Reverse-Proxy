@@ -1,0 +1,30 @@
+version: '3.3'
+
+networks:
+        patterns-network:
+                driver: 'bridge'
+
+services:
+        patterns-webapi:
+                image: patterns-webapi
+                container_name: patterns-webapi 
+                build:
+                        context: /home/kenerry/workspace/Nginx/
+                        dockerfile: Patterns.WebAPI/Dockerfile
+                depends_on: 
+                       - reverse-proxy
+                networks:
+                        - patterns-network
+
+        reverse-proxy:
+                image: reverse-proxy
+                container_name: reverse-proxy
+                build:
+                        context: /home/kenerry/workspace/Nginx/
+                        dockerfile: Patterns.WebAPI/Nginx/Dockerfile
+                networks:
+                        - patterns-network
+
+                        
+                        
+

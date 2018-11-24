@@ -6,7 +6,6 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Patterns.WebAPI.Middleware;
 using Swashbuckle.AspNetCore.Swagger;
 
 namespace Patterns.WebAPI
@@ -30,9 +29,6 @@ namespace Patterns.WebAPI
                 var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
                 c.IncludeXmlComments(xmlPath);
             });
-            
-            /* Registration */
-            services.AddTransient<ErrorHandlerMiddleware>();
         }
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
@@ -49,13 +45,12 @@ namespace Patterns.WebAPI
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
+                c.RoutePrefix = "api/v1/swagger";
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "Product API V1");
             });
 
-            app.UseHttpsRedirection();
+//            app.UseHttpsRedirection();
             
-            /* Usage */
-            app.UseMiddleware<ErrorHandlerMiddleware>(); 
             app.UseMvc();
         }
     }

@@ -3,18 +3,20 @@
   <component name="ContentModelStore">
     <e p="$APPLICATION_CONFIG_DIR$/scratches" t="IncludeRecursive" />
     <e p="$USER_HOME$/.Rider2018.2/system/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/.Rider2018.2/system/resharper-host/local/Transient/ReSharperHost/v182/SolutionCaches/_Patterns.1531905697.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/.Rider2018.2/system/resharper-host/local/Transient/ReSharperHost/v182/SolutionCaches/_Patterns.-27244396.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="Patterns.WebAPI" t="IncludeRecursive">
         <e p="Controllers" t="Include">
           <e p="ProductController.cs" t="Include" />
         </e>
-        <e p="Middleware" t="Include">
-          <e p="ErrorHandlerMiddleware.cs" t="Include" />
-          <e p="ExceptionResponse.cs" t="Include" />
-        </e>
+        <e p="Dockerfile" t="Include" />
         <e p="Models" t="Include">
           <e p="Product.cs" t="Include" />
+        </e>
+        <e p="Nginx" t="Include">
+          <e p="Dockerfile" t="Include" />
+          <e p="proxy.conf" t="Include" />
+          <e p="reverse-proxy.conf" t="Include" />
         </e>
         <e p="Patterns.WebAPI.csproj" t="IncludeRecursive" />
         <e p="Program.cs" t="Include" />

@@ -9,6 +9,10 @@
       <DocumentationFile>bin\Debug\netcoreapp2.1\Patterns.WebAPI.xml</DocumentationFile>
     </PropertyGroup>
 
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+      <DocumentationFile>bin\Release\netcoreapp2.1\Patterns.WebAPI.xml</DocumentationFile>
+    </PropertyGroup>
+
     <ItemGroup>
         <Folder Include="wwwroot\" />
     </ItemGroup>

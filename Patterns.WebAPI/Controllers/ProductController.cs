@@ -28,18 +28,6 @@ namespace Patterns.WebAPI.Controllers
         }
         
         /// <summary>
-        /// Complex method
-        /// </summary>
-        /// <returns></returns>
-        [HttpGet]
-        [Route("Exception")]
-        [ProducesResponseType(500)]
-        public IActionResult ComplexMethod()
-        {
-            throw new HttpRequestException();
-        }
-        
-        /// <summary>
         /// Select a single product
         /// </summary>
         /// <param name="id"></param>
